@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- 预览画布 800/480对应CameraPreview的预览相同则比较高清  高270-->
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="800dp"
+        android:layout_centerInParent="true" />
+
+    <!-- 闪光灯、前置摄像头、后置摄像头、聚焦 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/focus_index"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/camera_focus"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_camera_photo_focus_toast"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/img_flash_of" />
+
+        <!-- 底部按钮 -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="#a0000000">
+
+                <include
+                    android:id="@+id/include_bottom_layout"
+                    layout="@layout/include_bottom_menu_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/action_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/img_camera_alf" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--状态栏颜色-->
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="split_line">#5a5a5a</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="hint_color">#616163</color>
+    <color name="tanslate">#00888888</color>
+    <color name="ripple">#3f000000</color>
+    <color name="press">#b3fffffc</color>
+    <color name="normal">#fff</color>
+
+    <color name="bg_selet_language">#2a2a2a</color>
+    <color name="text_color_main">#3a3a3a</color>
+    <color name="text_color_lng_taost">#535252</color>
+    <color name="withe">#ffffff</color>
+
+    <color name="app_main_color">#00000000</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">28sp</dimen>
+
+
+    <!--<选择语言按钮字体>-->
+    <dimen name="choose_language_size">28sp</dimen>
+    <dimen name="choose_language_width">120dp</dimen>
+    <dimen name="choose_language_height">44dp</dimen>
+    <dimen name="choose_language_tx_margin_left">5dp</dimen>
+    <!--图片识别翻译页面-->
+    <dimen name="camera_translter_tx_size">20sp</dimen>
+
+    <dimen name="title_height">40dp</dimen>
+
+    <dimen name="toast_size">20sp</dimen>
+
+</resources>
